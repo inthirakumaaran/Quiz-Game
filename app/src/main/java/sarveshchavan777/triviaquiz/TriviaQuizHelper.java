@@ -18,7 +18,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
 
     //If you want to add more questions or wanna update table values
     //or any kind of modification in db just increment version no.
-    private static final int DB_VERSION = 3;
+    private static final int DB_VERSION = 4;
     //Table name
     private static final String TABLE_NAME = "TQ";
     //Id of question
@@ -65,23 +65,23 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
 
         arraylist.add(new TriviaQuestion("Who is the father of Geometry ?", "Aristotle", "Euclid", "Pythagoras", "Kepler", "Euclid"));
 
-        arraylist.add(new TriviaQuestion("Who was known as Iron man of India ?", "Govind Ballabh Pant", "Jawaharlal Nehru", "Subhash Chandra Bose", "Sardar Vallabhbhai Patel", "Sardar Vallabhbhai Patel"));
+        arraylist.add(new TriviaQuestion("What is the hottest continent on Earth ?", "Asia", "Africa", "Antartica", "North America", "Africa"));
 
         arraylist.add(new TriviaQuestion("The first woman in space was ?", "Valentina Tereshkova", "Sally Ride", "Naidia Comenci", "Tamara Press", "Valentina Tereshkova"));
 
-        arraylist.add(new TriviaQuestion("Who is the Flying Sikh of India ?", "Mohinder Singh", "Joginder Singh", "Ajit Pal Singh", "Milkha singh", "Milkha singh"));
+        arraylist.add(new TriviaQuestion("What is the largest country in the world ?", "Russia", "India", "China", "America", "Russia"));
 
-        arraylist.add(new TriviaQuestion("The Indian to beat the computers in mathematical wizardry is", "Ramanujam", "Rina Panigrahi", "Raja Ramanna", "Shakunthala Devi", "Shakunthala Devi"));
+        arraylist.add(new TriviaQuestion("What is the longest river in the world ?", "Amazon River", "River of Thames", "River Nile", "Mahaweli", "River Nile"));
 
         arraylist.add(new TriviaQuestion("Who is Larry Pressler ?", "Politician", "Painter", "Actor", "Tennis player", "Politician"));
 
         arraylist.add(new TriviaQuestion("Michael Jackson is a distinguished person in the field of ?", "Pop Music", "Jounalism", "Sports", "Acting", "Pop Music"));
 
-        arraylist.add(new TriviaQuestion("The first Indian to swim across English channel was ?", "V. Merchant", "P. K. Banerji", "Mihir Sen", "Arati Saha", "Mihir Sen"));
+        arraylist.add(new TriviaQuestion("What is the smallest planet in our solar system ?", "Neptune", "Saturn", "Venus", "Mercury", "Mercury"));
 
-        arraylist.add(new TriviaQuestion("Who was the first Indian to make a movie?", "Dhundiraj Govind Phalke", " Asha Bhonsle", " Ardeshir Irani", "V. Shantaram", "Dhundiraj Govind Phalke"));
+        arraylist.add(new TriviaQuestion("What is the capital of New Zealand ?", "Wellington", "Sydney", "Toronto", "Geneva", "Wellington"));
 
-        arraylist.add(new TriviaQuestion("Who is known as the ' Saint of the gutters ?", "B.R.Ambedkar", "Mother Teresa", "Mahatma Gandhi", "Baba Amte", "Mother Teresa"));
+        arraylist.add(new TriviaQuestion("How many valves does the heart have ?", "Five", "Four", "Three", "Two", "Four"));
 
         arraylist.add(new TriviaQuestion("Who invented the famous formula E=mc^2", "Albert Einstein", "Galilio", "Sarvesh", "Bill Gates", "Albert Einstein"));
 
@@ -97,7 +97,7 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
 
         arraylist.add(new TriviaQuestion("who has won ballon d'or of 2015 ?", "Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kaka", "Lionel Messi"));
 
-        arraylist.add(new TriviaQuestion("who has won ballon d'or of 2014 ?", "Neymar", "Lionel Messi", "Cristiano Ronaldo", "Kaka", "Cristiano Ronaldo"));
+        arraylist.add(new TriviaQuestion("What's the biggest animal in the world ?", "Blue Whale", "Elephant", "Buffalo", "Giraffe", "Blue Whale"));
 
         arraylist.add(new TriviaQuestion("the Founder of the most famous gaming platform steam is ?", "Bill Cliton", "Bill Williams", "Gabe Newell", "Bill Gates", "Gabe Newell"));
 
