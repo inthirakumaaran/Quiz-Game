@@ -28,8 +28,6 @@ public class Time_Up extends AppCompatActivity {
                 Intent intent = new Intent(Time_Up.this,MainGameActivity.class);
                 startActivity(intent);
                 finish();
-
-
             }
         });
 

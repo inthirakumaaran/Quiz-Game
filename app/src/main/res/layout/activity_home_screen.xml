@@ -21,7 +21,7 @@
 <ImageView
     android:layout_width="200dp"
     android:layout_height="200dp"
-    android:src="@drawable/triviafinal"/>
+    android:src="@mipmap/ic_launcher_foreground"/>
 
     <info.hoang8f.widget.FButton
         android:id="@+id/playGame"

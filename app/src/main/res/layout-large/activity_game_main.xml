@@ -111,6 +111,7 @@
             android:onClick="buttonA"
             android:text=""
             android:textColor="@color/grey"
+            fbutton:buttonColor="@color/colorPrimary"
             android:textSize="30sp" />
 
         <info.hoang8f.widget.FButton
@@ -121,6 +122,7 @@
             android:onClick="buttonB"
             android:text=""
             android:textColor="@color/grey"
+            fbutton:buttonColor="@color/colorPrimary"
             android:textSize="30sp" />
 
 
@@ -132,6 +134,7 @@
             android:onClick="buttonC"
             android:text=""
             android:textColor="@color/grey"
+            fbutton:buttonColor="@color/colorPrimary"
             android:textSize="30sp" />
 
         <info.hoang8f.widget.FButton
@@ -142,6 +145,7 @@
             android:onClick="buttonD"
             android:text=""
             android:textColor="@color/grey"
+            fbutton:buttonColor="@color/colorPrimary"
             android:textSize="30sp" />
 
     </LinearLayout>
